@@ -1,0 +1,25 @@
+.mid{
+    display: block;
+    width: 100%;
+    margin: 10px auto ;
+    font-size: 20px;
+    padding: 14px 8px;
+    
+    border:rgb(199, 101, 26);
+
+}
+.navbar li {
+    display: inline-block;
+   font-size: 20px;
+}
+.navbar li a {
+    color: rgb(26, 25, 25);
+    
+    text-decoration: none;
+    padding: 32px 8px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
